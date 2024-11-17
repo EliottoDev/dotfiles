@@ -1,0 +1,1068 @@
+dir
+ls
+ls | where 
+where --help
+ls | where name =~ "M"
+$env
+config nu
+install
+install -h
+help
+help commands
+help commands | where name =~ "install"
+help commands | where description =~ "install"
+plugin -h
+plugin list
+nvim
+winget -h
+winget nvim
+winget install nvim
+nvim
+refreshenv
+exit
+nvim
+config nu
+$env.config.buffer_editor = nvim
+config nu
+$nu.config-path
+config nu
+cd dev
+dir
+ls
+cd Nexium\
+ls
+xmake run
+cd dev\
+dir
+ls
+cd Nexium\
+dir
+ls
+xmake run
+http -h
+http get google.com
+http get https://google.com
+help
+ps
+ps | where cpu > 80
+ps | where cpu > 50
+ps | where cpu > 5
+sys host
+sys host | get hostname
+config -h
+config env
+dir
+ls
+..
+ls
+cd anas
+ls
+cd dev
+ls
+start hola.nu
+start "hola.nu"
+touch
+touch hola.nu
+ls
+nvim hola.nu
+nu hola.nu
+rm hola.nu
+ls
+show
+help commands
+5 | describe
+5f | describe
+5.0 | describe
+cal
+cal -h
+cal --full-year 2024
+cal --full-year 2024 --month-names
+cd dev
+ls
+table -h
+dir
+ls
+mkdir NuScripts
+ls
+cd NuScripts
+help commands 
+http get https://drive.google.com/uc?id=1f_lRSEobcCqoigHnc9mzli8fbK18loQm&export=download | open
+http get https://drive.google.com/uc?id=1f_lRSEobcCqoigHnc9mzli8fbK18loQm&export=download | table
+{<\n>    "glossary": {<\n>        "title": "example glossary",<\n>"GlossDiv": {            "title": "S",<\n>"GlossList": {                "GlossEntry": {<\n>                    "ID": "SGML",<\n>"SortAs": "SGML","GlossTerm": "Standard Generalized Markup Language","Acronym": "SGML","Abbrev": "ISO 8879:1986","GlossDef": {                        "para": "A meta-markup language, used to create markup languages such as DocBook.",<\n>"GlossSeeAlso": ["GML", "XML"]                    },<\n>"GlossSee": "markup"                }<\n>            }<\n>        }<\n>    }<\n>}
+let example = {<\n>    "glossary": {<\n>        "title": "example glossary",<\n>"GlossDiv": {            "title": "S",<\n>"GlossList": {                "GlossEntry": {<\n>                    "ID": "SGML",<\n>"SortAs": "SGML","GlossTerm": "Standard Generalized Markup Language","Acronym": "SGML","Abbrev": "ISO 8879:1986","GlossDef": {                        "para": "A meta-markup language, used to create markup languages such as DocBook.",<\n>"GlossSeeAlso": ["GML", "XML"]                    },<\n>"GlossSee": "markup"                }<\n>            }<\n>        }<\n>    }<\n>}
+$example
+cd dev
+cd Nexium\
+dir
+ls
+xrepo -h
+xmake -h
+xmake require json-c
+xrepo --list
+xrepo -h
+xrepo list-repo
+dir
+ls
+cd src
+ls
+rm Json.c
+ls
+..
+headers
+/headers
+./headers
+rm Json.h
+..
+cd src\
+nvim main.c
+xmake -h
+xmake
+xmake f -h
+explorer
+explorer .
+xmake require json-c
+xrepo -h
+xrepo install json-c
+xmake require --list
+xmake require json-c
+xmake require -h
+..
+xmake require json-c
+xmake install
+xmake require -h
+xmake require
+ls
+xmake -h
+xmake project -h
+xmake project -k=vs
+xmake project -k vs
+xmake project -k vsxmake
+cd ..
+./Nexium/
+ls
+rm vs2022
+rm -rf vs2022
+ls
+vsxmake2022\
+explorer .
+cd ..
+vscode xmake.lua
+code xmake.lua
+xmake f -c
+xmake project -k vsxmake
+nvim xmake.lua
+xmake require
+nvim xmake.lua
+xmake require
+xmake project -k vsxmake
+nvim xmake.lua
+xmake require
+cat xmake.lua
+xmake require
+nvim xmake.lua
+xmake require
+cd dev
+cd Nexium\
+nvim xmake.lua
+xmake project -k vsxmake
+nvim xmake.lua
+xmake project -k vsxmake
+explorer .
+nvim xmake.lua
+xmake project -k vsxmake
+nvim xmake.lua
+xmake project -k vsxmake
+nvim xmake.lua
+xmake project -k vsxmake
+nvim xmake.lua
+xmake project -k vsxmake
+nvim xmake.lua
+xmake project -k vsxmake
+nvim xmake.lua
+xmake project -k vsxmake
+nvim xmake.lua
+xmake project -k vsxmake
+cd resources
+dir
+ls
+mv Nexium_icon.ico icon.ico
+ls
+cd ..
+xmake clean
+nvim xmake.lua
+xmake clean
+xmake project -k vsxmake
+xmake clean
+xmake
+xmake clean
+xmake project -k vsxmake
+nvim xmake.lua
+xmake project -k vsxmake
+nvim xmake.lua
+xmake project -k vsxmake
+cd dev
+cd Nexium\
+cd resources
+ls
+explorer .
+xmake
+xmake run
+cd ..
+cd src
+nvim main.c
+cd ..
+xmake run
+xmake
+xmake run
+exitr
+exit
+cd dev
+cd Nexium\
+dir
+ls
+tree
+tree -h
+tree /h
+tree --help
+tree /?
+tree .
+xmake clean
+tree
+ls
+vs -h
+vs /h
+vs2022
+vs2022 /h
+explorer .
+nvim xmake.lua
+xmake run
+xmake clean
+nvim xmake.lua
+xmake clean
+cd dev\
+ls
+cd Nexium\
+xmake clean
+xmake run
+xmake build
+xmake run
+cd bin
+ls
+cd build
+dir
+lñs
+ls
+cd windows
+ls
+cd x64\
+ls
+debug
+cd debug
+ls
+resources
+./resources
+ls
+cd dev
+cd Nexium
+ls
+code xmake.lua
+xmake clean
+xmake build
+xmake run
+xmake clean
+xmake build
+xmake project -k vsxmake
+python
+cd dev
+cd Nexium
+cd resources
+magick
+magick convert icon.png -colorspace RGBA icon.png
+magick icon.png -colorspace RGBA icon.png
+magick -h
+magick -help
+magick -usage
+magick tool -help
+magick tool
+magick icon.png
+magick icon.png -colorspace RGBA icon.png
+magick "icon.png" -alpha on "icon.png"
+cd ..
+xmake build
+xmake run
+cd dev
+cd Nexium\
+code .
+xpack
+xmake -h
+xmake pack -h
+visualstudio
+explorer .
+xmake project -k vsxmake
+cd resources
+help commands 
+ls
+help commands
+str ends-with help
+str ends-with -help
+str ends-with -h
+ls | where str ends-with '.svg'
+ls | get name | where str ends-with '.svg'
+ls | get name | str ends-with '.svg'
+ls | where name ends-with '.svg'
+help commands
+str join help
+str join -help
+str join --help
+split -h
+split words -h
+split column+ -h
+split column -h
+split words -h
+split chars -h
+split list -h
+ls | where name ends-with '.svg' | split chars
+ls | where name ends-with '.svg' | get name | split chars
+ls | where name ends-with '.svg' | get name | split chars | split list '-'
+ls | where name ends-with '.svg' | get name | split chars | take 10
+ls | where name ends-with '.svg' | get name | split chars | take 10 | split list -
+ls | where name ends-with '.svg' | get name | split chars | take 10
+for -h
+for $it in (ls | where name ends-with '.svg' | get name | split chars | take 10) { $it | split list '-'}
+for $it in (ls | where name ends-with '.svg' | get name | split chars | take 10) { print $it | split list '-' }
+for $it in (ls | where name ends-with '.svg' | get name | split chars | take 10) { print $"($it | split list '-')" }
+split -h
+help commands
+str replace -h
+ls | where name ends-with '.svg' | get name  
+ls | where name ends-with '.svg' | get name | str replace --all '-'
+ls | where name ends-with '.svg' | get name | str replace --all '-' '_'
+for $name in (ls | where name ends-with '.svg' | get name) { mv $name $"($name | str replace --all '-' '_')"}
+ls
+magick convert bxs_zoom_out.svg bxs_zoom_out.png
+magick bxs_zoom_out.svg bxs_zoom_out.png
+ls
+rm bxs_zoom_out.png
+for $name in (ls | where name ends-with '.svg' | get name) { let $outputname = $name | str replace '.svg' '.png'; magick $name $outputname; rm $name}
+for $name in (ls | where name ends-with '.svg' | get name) { let $outputname = $name | str replace '.svg' '.png'; magick -background none -quality 90 $name $outputname; rm $name}
+for $name in (ls | where name ends-with '.svg' | get name) { mv $name $"($name | str replace --all '-' '_')"}
+for $name in (ls | where name ends-with '.svg' | get name) { let $outputname = $name | str replace '.svg' '.png'; magick -background none -quality 90 $name $outputname; rm $name}
+cd ..
+dir
+ls
+code .
+xmake clean
+xmake build
+xmake run
+cd dev
+cd Nexium\
+explorer .
+cd resources | explorer .
+cd C:\Users\anas\Downloads\boxicons-2.1.4\boxicons-2.1.4\svg\regular
+for $name in (ls | where name ends-with '.svg' | get name) { let $outputname = $name | str replace '.svg' '.png'| str replace --all '-' '_'; magick -background none -quality 90 $name $outputname; rm $name}
+..
+cd ..
+dev
+cd dev
+cd Nexium\
+ls
+cd resources
+ls C:\Users\anas\Downloads\boxicons-2.1.4\boxicons-2.1.4\svg\regular
+explorer .
+cd ..
+xmake run debug
+xmake run --mode=debug
+xmake run
+xmake clean
+xmake build
+code .
+xmake clean
+xmake build
+cd dev
+cd Nexium
+xmake run
+xmake run -h
+xmake run -d
+explorer .
+cd resources
+ls
+tree
+ls | where name = "bxs_x"
+ls | where name = "bx_x"
+ls | where name ~= "bxs_x"
+cd ..
+code .
+xmake require
+code .
+xmake require
+cd ..
+cd Nexium\
+xmake require
+xmake
+xmake -h
+winget install xmake
+cd dev\
+cd nexium
+ls
+cd ..
+cd Nexium\
+xmake require
+cd dev
+cd Nexium\
+xmake require
+xmake project -k vsxmake
+code .
+xmake clean
+xmake build
+xmake clean
+xmake build
+xmake project -k vsxmake
+xmake build
+cd Nexium\
+ls
+rm *
+lks
+ls
+cd ..
+cd dev
+ls
+cd Nexium\
+ls
+code .
+explorer .
+xmake require
+xmake project -k vsxmake
+$env
+powershell
+nvim hola
+nvim AppData/Local/nvim/init.vim
+nvim
+nvim AppData/Local/nvim/init.vim
+nvim
+nvim AppData/Local/nvim/init.vim
+nvim
+nvim AppData/Local/nvim/init.vim
+nvim $MYVIMRC
+$nu.env
+$env
+$env.MYVIMRC
+$nu.env.MYVIMRC
+$nu.env
+$nu
+$env
+$env.HOME
+$env.HOMEPATH
+let-env NVIM_CONFIG = "AppData/Local/nvim/init.vim"
+let-env NVIM_CONFIG = "/AppData/Local/nvim/init.vim"
+cd /AppData/Local/nvim/
+cd AppData/Local/nvim/
+explorer .
+nvim $NVIM_CONFIG
+$env.NVIM_CONFIG
+nvim $env.NVIM_CONFIG
+code $env.NVIM_CONFIG
+clang-format
+format
+winget install clang-format
+nvim $env.NVIM_CONFIG
+winget install LGUG2Z.komorebi
+winget install LGUG2Z.whkd
+komorebic quickstart
+komorebic.exe start --whkd --bar
+komorebic stop
+komorebi-bar.exe stop
+komorebic.exe --help
+komorebic.exe start --whkd
+firefox
+komorebic-no-console.exe -h
+komorebic-no-console.exe --h
+komorebic-no-console.exe --help
+winget install --id AmN.yasb
+yasb -h
+yasb
+ls
+ls | name ~= "yasb"
+ls | where name ~= "yasb"
+ls | where name =~ "yasb"
+ls | where name =~ "ou"
+cd .config
+cd yasb\
+ls
+git -h
+git clone https://github.com/amnweb/yasb-themes/tree/main/themes/61e6a045-e090-4f33-a41b-6938702eb446
+ls
+explorer .
+code .
+komorebic.exe start --whkd --dynamic
+komorebi.exe -h
+komorebi.exe start --whkd --dynamic
+komorebic.exe start --whkd 
+ls
+code komorebi.json
+komorebic -h
+komorebic reload-configuration
+komorebic watch-workspace
+komorebic state-reset
+komorebic state
+komorebic state -h
+komorebi -h
+komorebi-gui.exe 
+komorebi.exe start --whkd --dynamic
+komorebi.exe start --whkd
+komorebic.exe start --whkd
+clear
+nvim
+nvim hola.c
+winget install clangd
+nvim hola.c
+nvim $env.NVIM_CONFIG
+nvim hola.c
+nvim $env.NVIM_CONFIG
+exit
+cd dev
+cd Nexium\
+ls
+nvim src
+cd src
+nvim main.c
+nvim $env.NVIM_CONFIG
+nvim main.c
+nvim $env.NVIM_CONFIG
+nvim main.c
+nvim $env.NVIM_CONFIG
+winget install LLVM.LLVM
+nvim main.c
+xmake run
+clear
+cd (($env.NVIM_CONFIG) + "/..")
+ls
+mkdir lua
+cd lua
+ls
+touch keymaps.lua
+cd ..
+code .
+nvim $env.NVIM_CONFIG
+nvim hola.c
+ls
+rm hola.c
+nvim
+winget install clang
+clang -h
+llvm
+winget install LLVM.LLVM
+LLVM
+clang
+cl
+cl.exe
+winget uninstall LLVM.LLVM
+code .
+cd $env.NVIM_CONFIG
+cd $env.NVIM_CONFIG/..
+cd ($env.NVIM_CONFIG + "/..")
+code .
+nvim
+nvim hola.c
+winget install -i -e --id LLVM.LLVM
+llvm
+clang
+clangd -h
+where clangd
+help commands
+which -h
+help commands
+nvim
+nvim hola.c
+cd dev
+cd nexium
+ls
+nvim src/main.c
+xmake project -h
+xmake project -k compile_commands --lsp=clangd
+nvim src\main.c
+ls
+rm vsxmake2022
+rm -rf vsxmake2022
+ls
+komorebic.exe start --whkd
+nvim hola.c
+clang -h
+clang hola.c
+hola.exe
+ls
+a
+rm hola.c a.exe
+ls
+nvim komorebi.json
+nvim
+cd ($env.NVIM_CONFIG + "/..")
+nvim
+komorebic.exe state --toggle-decors
+komorebic.exe state --help
+komorebic state
+nvim ~/komorebi.json
+komorebic -h
+komorebic remove-title-bar
+komorebic remove-title-bar wt.exe
+nvim ~/komorebi.json
+komorebic remove-title-bar "wt.exe"
+wt
+help commands
+help commands | where name =~ "path"
+path -h
+path expand
+path expand -h
+wt.exe | path expand
+komorebic remove-title-bar "*"
+komorebic remove-title-bar exe
+komorebic remove-title-bar path "*"
+komorebic remove-title-bar path "/*"
+komorebic remove-title-bar path "/*.exe"
+komorebic remove-title-bar path "wt.exe"
+komorebic remove-title-bar title "wt.exe"
+komorebic remove-title-bar title wt
+komorebic remove-title-bar
+komorebic 
+komorebic enable-autostart -h
+komorebic enable-autostart --whkd
+komorebic state
+komorebic stop
+komorebic.exe start --whkd
+komorebi
+nvim ~/komorebi.json
+komorebic.exe start --whkd
+komorebi -h
+nvim ~/komorebi.json
+komorebi -h
+komorebic.exe start --whkd
+nvim ~/komorebi.json
+komorebic.exe start --whkd
+nvim ~/komorebi.json
+komorebic.exe start --whkd
+nvim ~/komorebi.json
+nvim 
+ls
+cd lua
+ls
+cd plugins
+ls
+nvim tree.lua
+cd ($env.NVIM_CONFIG + "/..")
+ls 
+cd lua
+ls
+nvim options.lua
+cd plugins
+ls
+nvim tree.lua
+cd ..
+nvim keymaps.lua
+nvim
+cd ..
+ls
+nvim init.vim
+cd plugins
+nvim
+exit
+komorebic state
+nvim komorebi.json
+$env.USERPROFILE
+ls
+nvim applications.yaml
+type applications.yaml
+cat application.yaml
+cat applications.yaml
+notepad
+notepad applications.yaml
+komorebic remove-title-bar
+komorebic remove-title-bar EXE wt.exe
+komorebic remove-title-bar exe wt.exe
+komorebic -h
+komorebic reload-configuration
+komorebic stop
+komorebi.exe start --whkd
+komorebicexe start --whkd
+komorebic.exe start --whkd
+komorebic remove-title-bar exe WindowsTerminal.exe
+komorebic remove-title-bar exe *.exe
+komorebic stop
+komorebic start --whkd
+cd ($env.NVIM_CONFIG + "/..")
+git -h
+git start
+git init
+ls
+winget install --id Github.cli
+gh
+gh auth login
+gh -h
+cd ($env.NVIM_CONFIG + "/..")
+gh repo -h
+gh repo create -h
+gh repo create --private --source . --add-readme --description "My NVim configuration"
+git -h
+git add -h
+git add -A
+git -h
+git status
+git commit -h
+git commit -am "First commit"
+git
+gh
+git commit -am "First commit"
+git config --global user.email "eliasrpg369@gmail.com"
+git config --global user.name "EliottoDev"
+git commit -am "First commit"
+git push
+git push --set-upstream origin master
+cd ($env.NVIM_CONFIG + "/..")
+nvim
+cd ..
+cd..
+cd ..
+cd dev
+cd Nexium\
+nvim
+exit
+outlook
+outlook.exe
+winget nodejs
+winget search nodejs
+winget search npm
+winget install Node.js
+npm
+node -v
+cd dev
+ls
+rm portfolio-maria-back\
+rm -rf portfolio-maria-back\
+rm -rf portfolio-maria-front\
+ls
+cd Huna
+ls
+Huna
+cd Huna
+ls
+cd ..
+rm -rf Huna
+ls
+mkdir Portfolio
+cd Portfolio\
+ls
+npm create-next-app
+npx create-next-app --tailwind --eslint --src-dir --ts 
+ls
+ls portfolio
+help path
+for $name in (ls portfolio | get name | path basename) { echo $name }
+for $name in (ls portfolio | get name | path basename) { print $name }
+for $name in (ls portfolio | get name | path basename) { mv ('portfolio' + $name) $name }
+for $name in (ls portfolio | get name | path basename) { mv ('portfolio/' + $name) $name }
+ls
+rm portfolio
+cd portfolio
+ls
+cd ..
+rm po
+rm portfolio
+rm -rf portfolio
+ls
+node start
+node run
+ls
+cat package.json
+npm start
+npm build
+npm run build
+npm run start
+cd ($env.NVIM_CONFIG + "/..")
+ls
+nvim
+cd ~
+ls
+dev
+cd dev
+ls
+cd Portfolio\
+ls
+nvim .
+cd ($env.NVIM_CONFIG + "/..")
+ls
+nvim .
+cd ~
+cd dev
+ls
+cd Portfolio\
+ls
+cd dev
+ls
+cd Portfolio\
+npm run
+npm run start
+npm install nodemon
+nodemon
+npm install -g nodemon
+nodemon npm start
+npm start
+npm dev
+nvim .
+cd dev\
+cd Portfolio\
+ls
+cd src
+ls
+cd app\
+ls
+mkdir components
+cd components\
+ls
+touch bar.tsx
+npm run dev
+cd ($env.NVIM_CONFIG + "/..")
+nvim .
+cd ~/dev
+cd Portfolio\
+ls
+nvim
+nvim .
+code .
+cd dev
+ls
+cd Portfolio\
+ls
+npm run dev
+cd dev
+cd Portfolio\
+python
+winget search python
+python install "Python 3.10"
+winget install "Python 3.10"
+winget install Python.Python.3.10
+python -h
+python --version
+python
+pip install pyautogui
+curl
+curl --help
+winget search golang
+winget install --id GoLang.Go
+winget search refreshenv
+winget -h
+winget source -h
+cd dev
+ls
+cd NuScripts
+$nu
+$env
+$env.COMSPEC
+$shell
+nu -h
+help
+help commands
+help commands | where name =~ "refresh"
+env
+cd ..
+ls
+cd Portfolio\
+ls
+shells
+cd ..
+cd NuScripts\
+ls
+nu-plugin
+cargo
+winget search Rust
+winget install Rustlang.Rustup
+cargo
+[ nu_plugin_inc<\n>nu_plugin_polars<\n>nu_plugin_gstat<\n>nu_plugin_formats<\n>nu_plugin_query<\n>] | par-each { cargo install $in } | ignore
+[ nu_plugin_inc<\n>nu_plugin_polars<\n>nu_plugin_gstat<\n>nu_plugin_formats<\n>nu_plugin_query<\n>] | each { cargo install $in } | ignore
+cargo install --locked zellij
+winget search perl
+winget alacrity
+winget search alacrity
+winget search alacritty
+winget install Alacritty.Alacritty
+alacrity
+alacritty
+env
+exit
+komorebic start --whkd
+komorebic enable-autostart
+komorebic start --whkd
+hola que tal
+cd %userprofile%
+cd ..
+echo %userprofile%
+$USERPROFILE
+cd $env.USERPROFILE
+ls
+cd dev
+ls
+mkdir DeleteUGC
+cd DeleteUGC
+dir
+ls
+python
+cd $env.NVIM_CONFIG/..
+cd "$env.NVIM_CONFIG/.."
+cd ($env.NVIM_CONFIG + "/..")
+ls
+cd lua
+ls
+cd plugins
+ls
+nvim completion.lua
+cd ,,
+cd ..
+cd dev
+cd DeleteUGC\
+touch init.py
+ls
+nvim init.py
+nvim ($env.USERPROFILE + "/alacritty/alacritty.toml")
+cd ($env.USERPROFILE + "/alacritty/alacritty.toml")
+nvim ($env.APPDATA + "/alacritty/alacritty.toml")
+cd ..
+cd DeleteUGC\
+ls
+nvm init.py
+nvim init.py
+exit
+cd $env.USERPROFILE
+ls
+cd de 
+cd dev
+ls
+cd DeleteUGC\
+ls
+nvim init.py
+exit
+cd $env.USERPROFILE
+$env.APPDATA
+cd $env.APPDATA
+cd alacritty\
+ls
+nvim alacritty.toml
+cd DeleteUGC\
+ls
+nvim init.py
+exit
+cd DeleteUGC\
+nvim init.py
+python init.py
+nvim init.py
+python init.py
+nvim init.py
+python init.py
+nvim init.py
+python init.py
+nvim init.py
+python init.py
+nvim init.py
+python init.py
+nvim init.py
+python init.py
+nvim init.py
+python init.py
+nvim init.py
+python init.py
+nvim init.py
+python init.py
+nvim init.py
+python init.py
+nvim init.py
+python init.py
+nvim init.py
+python init.py
+nvim init.py
+python init.py
+nvim init.py
+python init.py
+nvim init.py
+python init.py
+nvim init.py
+code program.py
+python program.py
+exit
+cd DeleteUGC\
+mv program.py BME.62240032_Abdelhalim-Sadlah.A1.py
+ls
+explorer .
+exit
+nvim BME.62240032_Abdelhalim-Sadlah.A2.py
+exit
+cd dev
+cd DeleteUGC\
+nvim.exe BME.62240032_Abdelhalim-Sadlah.A2.py
+python BME.62240032_Abdelhalim-Sadlah.A2.py
+exit
+cmd
+exit
+hola
+cd dev
+ls
+mkdir dotfiles
+ls
+cd dotfiles
+alias -h
+cd ($env.APPDATA + "\Roaming\nushell")
+cd ($env.APPDATA + "\nushell")
+cd $env.APPDATA
+cd nushell\
+ls
+cat config.nu
+config -h
+config
+nu config
+config
+config nu
+config nu -h
+save -h
+config env -h
+config env
+config nu
+dotfiles
+$env.APPDATA
+cd ($env.APPDATA + "\nushell")
+cd ($env.APPDATA + "\\nushell")
+ls
+cp -h
+cp config.nu config_bak.nu
+ls
+mv config.nu ~/dev/dotfiles/config.nu
+mklink -h
+mklink /D ./config.nu C:\Users\anas\dev\dotfiles\config.nu
+mklink /D .\config.nu C:\Users\anas\dev\dotfiles\config.nu
+ls
+cd dot
+dotfiles
+ls
+rm config.nu
+cd $env.APPDATA
+cd nushell\
+ls
+cd ..
+mklink
+mklink /D .\nushell C:\Users\anas\dev\dotfiles\nushell
+exit
+hola
+dotfiles
+ls
+dotfiles
+cd dotfiles
+dotfiles
+cd dotfiles
+dotfiles
+cd dotfiles
+dotfiles
+ls
+gh
+gh repo create --source . --add-readme --description "My dotfiles's configuration"
+gh repo create --public --source . --add-readme --description "My dotfiles's configuration"
+git init .
+gh repo create --public --source . --add-readme --description "My dotfiles's configuration"
+ls
+git pull
+git 
+git status
+git add -A
