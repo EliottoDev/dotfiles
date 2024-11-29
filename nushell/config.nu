@@ -7,6 +7,7 @@
 
 alias dotfiles = cd ~/dev/dotfiles
 
+$env.HOMEPATH = "/Users/anas/dev/"
 
 # For more information on defining custom themes, see
 # https://www.nushell.sh/book/coloring_and_theming.html
@@ -902,3 +903,6 @@ $env.config = {
         }
     ]
 }
+
+use ~/.cache/starship/init.nu
+fastfetch
