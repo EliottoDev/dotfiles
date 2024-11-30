@@ -4,3 +4,61 @@ git add -A
 git commit -a
 git commit -am ""
 git commit -am " "
+git commit -am "Updated dotfiles"
+git push
+clear & echo hola
+clear & echo "hola"
+echo "hola" & echo "hola"
+echo "hola" && echo "hola"
+clear; flashfetch
+clear; fastfetch
+clear
+clear; fastfetch
+cd dotfiles
+ls
+exit
+ls
+eqxit
+exit
+flashfetch
+dotfiles
+ls
+cd nushell
+ls
+nvim env.nu
+nvim config.nu
+dotfiles
+ls
+cd ..
+.config
+ls
+cd fastfetch
+ls
+nvim config.jsonc
+fastfetch
+cd ..
+fastfetch
+cd fastfetch
+ls
+nvim config.jsonc
+fastfetch
+cd ..
+fastfetch
+cd fastfetch
+fastfetch
+nvim config.jsonc
+fastfetch
+nvim config.jsonc
+fastfetch
+nvim config.jsonc
+fastfetch
+nvim config.jsonc
+cursor config.jsonc
+nvim config.jsonc
+fastfetch
+clear; fastfetch
+clear
+fastfetch
+cd ..
+fastfetch
+pwd
