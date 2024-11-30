@@ -53,7 +53,35 @@ New-Item -ItemType Directory -Force -Path $devDir
 Copy-Item "alacritty.toml" -Destination "$configDir\alacritty\alacritty.toml"
 Copy-Item "config.jsonc" -Destination "$configDir\fastfetch\config.jsonc" 
 Copy-Item "config.nu" -Destination "$configDir\nushell\config.nu"
+Copy-Item "Perfil.code-profile" -Destination "$configDir\Code\User\settings.json"
 
 Write-Host "Configuración copiada exitosamente"
 
+$responseFonts = Read-Host "¿Deseas instalar las fuentes? (S/N)"
+if ($responseFonts -eq "S") {
+    Write-Host "Instalando fuentes..."
+
+    $fontsFolder = ".\fonts"
+    $systemFontsFolder = "$env:windir\Fonts"
+    $registryPath = "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts"
+
+    if (Test-Path $fontsFolder) {
+        Get-ChildItem -Path $fontsFolder | ForEach-Object {
+            $fontName = $_.Name
+            $fontPath = $_.FullName
+            
+            Copy-Item $fontPath -Destination $systemFontsFolder
+            
+            $registryValue = "$fontName"
+            New-ItemProperty -Path $registryPath -Name $fontName.Replace(".*","") -Value $registryValue -PropertyType String -Force
+        }
+        Write-Host "Fuentes instaladas exitosamente"
+    } else {
+        Write-Host "No se encontró la carpeta de fuentes"
+    }
+}
+
+Write-Host "Setup completado exitosamente"
+
+Write-Host "Presiona Enter para terminar..."
 Pause
