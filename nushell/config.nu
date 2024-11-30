@@ -851,13 +851,13 @@ $env.config = {
             event: { edit: cutselection }
             # event: { edit: cutselectionsystem }
         }
-        {
-            name: paste_system
-            modifier: control_shift
-            keycode: char_v
-            mode: emacs
-            event: { edit: pastesystem }
-        }
+        # {
+        #     name: paste_system
+        #     modifier: control_shift
+        #     keycode: char_v
+        #     mode: emacs
+        #     # event: { edit: pastesystem }
+        # }
         {
             name: select_all
             modifier: control_shift
